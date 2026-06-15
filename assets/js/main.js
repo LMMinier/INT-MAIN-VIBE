@@ -1,5 +1,86 @@
 // INT MAIN VIBE -- main.js (lightweight, no parallax)
 
+// ── IMMERSIVE HERO: constellation canvas + word cycler ─────────────────────
+(function heroExperience() {
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // cycling accent word
+  const cycleEl = document.getElementById('cycle-word');
+  if (cycleEl && !reduce) {
+    const words = ['IS RUNNING.', 'IS ACCELERATING.', 'IS UNGOVERNED.', 'IS HERE.'];
+    let i = 0;
+    setInterval(() => {
+      cycleEl.classList.add('swap');
+      setTimeout(() => {
+        i = (i + 1) % words.length;
+        cycleEl.textContent = words[i];
+        cycleEl.classList.remove('swap');
+      }, 300);
+    }, 2600);
+  }
+
+  const canvas = document.getElementById('hero-canvas');
+  if (!canvas || reduce) return;
+  const ctx = canvas.getContext('2d');
+  let w, h, dpr, nodes = [], raf = null, running = false;
+
+  function size() {
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    w = canvas.clientWidth; h = canvas.clientHeight;
+    canvas.width = w * dpr; canvas.height = h * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const count = Math.min(90, Math.floor((w * h) / 16000));
+    nodes = Array.from({ length: count }, () => ({
+      x: Math.random() * w, y: Math.random() * h,
+      vx: (Math.random() - 0.5) * 0.28, vy: (Math.random() - 0.5) * 0.28,
+      r: Math.random() * 1.6 + 0.6
+    }));
+  }
+
+  function frame() {
+    ctx.clearRect(0, 0, w, h);
+    for (const n of nodes) {
+      n.x += n.vx; n.y += n.vy;
+      if (n.x < 0 || n.x > w) n.vx *= -1;
+      if (n.y < 0 || n.y > h) n.vy *= -1;
+    }
+    // links
+    for (let a = 0; a < nodes.length; a++) {
+      for (let b = a + 1; b < nodes.length; b++) {
+        const dx = nodes[a].x - nodes[b].x, dy = nodes[a].y - nodes[b].y;
+        const d2 = dx * dx + dy * dy;
+        if (d2 < 16000) {
+          const o = (1 - d2 / 16000) * 0.5;
+          ctx.strokeStyle = `rgba(255,214,0,${o * 0.4})`;
+          ctx.lineWidth = 1;
+          ctx.beginPath();
+          ctx.moveTo(nodes[a].x, nodes[a].y);
+          ctx.lineTo(nodes[b].x, nodes[b].y);
+          ctx.stroke();
+        }
+      }
+    }
+    // dots
+    for (const n of nodes) {
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
+      ctx.fillStyle = 'rgba(240,237,232,0.55)';
+      ctx.fill();
+    }
+    raf = requestAnimationFrame(frame);
+  }
+  function start() { if (!running) { running = true; frame(); } }
+  function stop() { if (running) { running = false; cancelAnimationFrame(raf); } }
+
+  size();
+  start();
+  window.addEventListener('resize', () => { size(); }, { passive: true });
+  // pause when hero scrolls out of view (perf)
+  new IntersectionObserver(es => es.forEach(e => e.isIntersecting ? start() : stop()), { threshold: 0.02 })
+    .observe(canvas);
+})();
+
+
 // Per-story accent injection
 document.querySelectorAll('.story').forEach(story => {
   const accent = story.dataset.accent;

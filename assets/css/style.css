@@ -1040,37 +1040,124 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 }
 
 /* ── SIMPLIFIED LAYOUT (no parallax, full-bleed plates) ────────────────────── */
-.masthead {
+/* IMMERSIVE HERO */
+.hero {
+  position: relative;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: radial-gradient(120% 120% at 50% 10%, #14110a 0%, #0a0a0a 55%, #000 100%);
   border-bottom: 1px solid var(--color-border);
-  padding: calc(var(--nav-h) + var(--space-16)) var(--space-6) var(--space-16);
-  background:
-    radial-gradient(120% 100% at 50% 0%, rgba(255,214,0,0.06), transparent 60%),
-    var(--color-bg);
 }
-.mast-inner { max-width: var(--content-default); margin-inline: auto; }
-.mast-kicker {
+#hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.hero-grain {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.5;
+  background:
+    radial-gradient(60% 50% at 50% 40%, transparent 0%, rgba(0,0,0,0.55) 100%);
+}
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+  max-width: var(--content-default);
+  margin-inline: auto;
+  padding: var(--space-24) var(--space-6);
+  width: 100%;
+}
+.hero-kicker {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
-  letter-spacing: 0.2em;
+  letter-spacing: 0.22em;
   color: var(--accent);
   text-transform: uppercase;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-8);
+  opacity: 0;
+  animation: heroFade 0.8s ease forwards 0.1s;
 }
-.mast-title {
+.hero-title {
   font-family: var(--font-display);
   font-weight: 900;
   font-size: var(--text-3xl);
   line-height: 0.9;
   letter-spacing: -0.04em;
   text-transform: uppercase;
+  margin-bottom: var(--space-8);
 }
-.mast-sub {
+.hero-title .hl {
+  display: block;
+  opacity: 0;
+  transform: translateY(0.4em);
+  filter: blur(8px);
+  animation: heroLine 0.9s cubic-bezier(0.16,1,0.3,1) forwards;
+}
+.hero-title .hl:nth-child(1) { animation-delay: 0.20s; }
+.hero-title .hl:nth-child(2) { animation-delay: 0.36s; }
+.hero-title .hl:nth-child(3) { animation-delay: 0.52s; }
+.cycle { color: var(--accent); display: inline-block; transition: opacity 0.3s ease, transform 0.3s ease; }
+.cycle.swap { opacity: 0; transform: translateY(-0.18em); }
+.hero-tag {
   font-family: var(--font-mono);
   font-size: var(--text-sm);
   color: var(--color-ink-muted);
-  max-width: 62ch;
-  line-height: 1.7;
-  margin-top: var(--space-6);
+  max-width: 60ch;
+  line-height: 1.75;
+  margin-bottom: var(--space-10);
+  opacity: 0;
+  animation: heroFade 0.8s ease forwards 0.7s;
+}
+.hero-enter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #000;
+  background: var(--accent);
+  padding: 0.85rem 1.4rem;
+  border-radius: 100px;
+  font-weight: 700;
+  opacity: 0;
+  animation: heroFade 0.8s ease forwards 0.9s;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.hero-enter:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(255,214,0,0.25); }
+.hero-scrollcue {
+  position: absolute;
+  bottom: 1.6rem; left: 50%;
+  transform: translateX(-50%);
+  width: 22px; height: 36px;
+  border: 2px solid rgba(240,237,232,0.3);
+  border-radius: 14px;
+  z-index: 2;
+}
+.hero-scrollcue::before {
+  content: '';
+  position: absolute;
+  top: 6px; left: 50%;
+  width: 3px; height: 7px;
+  background: var(--accent);
+  border-radius: 2px;
+  transform: translateX(-50%);
+  animation: scrollDot 1.6s ease-in-out infinite;
+}
+@keyframes heroFade { to { opacity: 1; } }
+@keyframes heroLine { to { opacity: 1; transform: translateY(0); filter: blur(0); } }
+@keyframes scrollDot { 0%{opacity:0;transform:translate(-50%,0)} 30%{opacity:1} 100%{opacity:0;transform:translate(-50%,14px)} }
+@media (prefers-reduced-motion: reduce) {
+  .hero-kicker, .hero-tag, .hero-enter, .hero-title .hl { animation: none; opacity: 1; transform: none; filter: none; }
+  .hero-scrollcue::before { animation: none; }
 }
 
 /* stories become simple flowing sections — no 100vh, no parallax */
