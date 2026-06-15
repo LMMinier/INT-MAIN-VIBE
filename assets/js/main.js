@@ -42,6 +42,7 @@ const storyDefs = [
   { id: 'ethics',     label: '04 ETHICS' },
   { id: 'trust',      label: '05 TRUST' },
   { id: 'suspension', label: '06 72 HRS' },
+  { id: 'techwire',   label: '07 THE WIRE' },
 ];
 const counterEl = document.getElementById('story-counter');
 if (counterEl) {
@@ -106,7 +107,7 @@ const revealSelectors = [
   '.company-grid', '.stat-row', '.analysis-block',
   '.pullquote-row', '.story-quote', '.open-q',
   '.hero-headline', '.hero-sub', '.issue-tag', '.hero-byline',
-  '.story-infographic', '.reading-time-badge', '.share-widget'
+  '.story-infographic', '.ig', '.reading-time-badge', '.share-widget'
 ];
 const revealEls = document.querySelectorAll(revealSelectors.join(', '));
 revealEls.forEach((el, i) => {
