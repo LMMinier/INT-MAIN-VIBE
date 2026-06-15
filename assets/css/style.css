@@ -1039,6 +1039,86 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   .page-folio { position: static; margin-top: 1rem; }
 }
 
+/* ── SIMPLIFIED LAYOUT (no parallax, full-bleed plates) ────────────────────── */
+.masthead {
+  border-bottom: 1px solid var(--color-border);
+  padding: calc(var(--nav-h) + var(--space-16)) var(--space-6) var(--space-16);
+  background:
+    radial-gradient(120% 100% at 50% 0%, rgba(255,214,0,0.06), transparent 60%),
+    var(--color-bg);
+}
+.mast-inner { max-width: var(--content-default); margin-inline: auto; }
+.mast-kicker {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: var(--space-6);
+}
+.mast-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--text-3xl);
+  line-height: 0.9;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.mast-sub {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+  max-width: 62ch;
+  line-height: 1.7;
+  margin-top: var(--space-6);
+}
+
+/* stories become simple flowing sections — no 100vh, no parallax */
+.story {
+  border-bottom: 1px solid var(--color-border);
+  scroll-margin-top: var(--nav-h);
+}
+.story:nth-child(even) { background: var(--color-surface); }
+.story .story-inner {
+  max-width: 1000px;
+  margin-inline: auto;
+  padding: clamp(var(--space-12), 6vw, var(--space-24)) var(--space-6);
+}
+
+/* the infographic plate — full width, never cropped */
+.plate {
+  margin: var(--space-8) 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-bg);
+  box-shadow: 0 16px 50px rgba(0,0,0,0.45);
+}
+.plate img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+.plate-fallback { display: none; }
+.plate.missing img { display: none; }
+.plate.missing {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 220px;
+  background: repeating-linear-gradient(45deg, #111 0 12px, #0d0d0d 12px 24px);
+}
+.plate.missing .plate-fallback {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-ink-muted);
+  text-align: center;
+}
+.plate-fallback strong { color: var(--accent); letter-spacing: 0.1em; }
+.plate-fallback code { background: rgba(255,214,0,0.12); color: var(--accent); padding: 2px 7px; border-radius: 4px; }
+
+.ig { margin: var(--space-8) 0; }
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .nav-links { display: none; }
