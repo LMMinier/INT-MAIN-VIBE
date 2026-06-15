@@ -51,7 +51,7 @@
         const d2 = dx * dx + dy * dy;
         if (d2 < 16000) {
           const o = (1 - d2 / 16000) * 0.5;
-          ctx.strokeStyle = `rgba(255,214,0,${o * 0.4})`;
+          ctx.strokeStyle = `rgba(46,181,150,${o * 0.55})`;
           ctx.lineWidth = 1;
           ctx.beginPath();
           ctx.moveTo(nodes[a].x, nodes[a].y);
@@ -64,7 +64,7 @@
     for (const n of nodes) {
       ctx.beginPath();
       ctx.arc(n.x, n.y, n.r, 0, Math.PI * 2);
-      ctx.fillStyle = 'rgba(240,237,232,0.55)';
+      ctx.fillStyle = 'rgba(12,17,16,0.45)';
       ctx.fill();
     }
     raf = requestAnimationFrame(frame);
