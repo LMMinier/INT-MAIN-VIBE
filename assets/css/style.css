@@ -920,6 +920,125 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 }
 #issue-stats strong { color: rgba(255,255,255,0.75); }
 
+/* ── MAGAZINE DOUBLE-PAGE SPREAD SYSTEM ───────────────────────────────────── */
+.mag-wrap {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: clamp(var(--space-12), 7vw, var(--space-24)) var(--space-6);
+}
+
+.spread {
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: 0 30px 80px rgba(0,0,0,0.55);
+  overflow: hidden;
+  position: relative;
+}
+/* center binding / gutter */
+.spread::before {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0; left: 50%;
+  width: 40px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg,
+    rgba(0,0,0,0) 0%,
+    rgba(0,0,0,0.45) 45%,
+    rgba(0,0,0,0.55) 50%,
+    rgba(0,0,0,0.45) 55%,
+    rgba(0,0,0,0) 100%);
+  pointer-events: none;
+  z-index: 3;
+}
+.page {
+  padding: clamp(1.75rem, 3.5vw, 3.25rem);
+  position: relative;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+.page-left { border-right: 1px solid var(--color-border); }
+.page-folio {
+  position: absolute;
+  bottom: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  color: var(--color-ink-faint);
+}
+.page-left .page-folio { left: clamp(1.75rem,3.5vw,3.25rem); }
+.page-right .page-folio { right: clamp(1.75rem,3.5vw,3.25rem); }
+
+/* the hero "plate" — holds the full-page infographic image */
+.plate {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  position: relative;
+  background: var(--color-bg);
+  min-height: 320px;
+}
+.plate img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.plate-fallback { display: none; }
+.plate.missing img { display: none; }
+.plate.missing { background: repeating-linear-gradient(45deg, #111 0 12px, #0d0d0d 12px 24px); }
+.plate.missing .plate-fallback {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: var(--space-8);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-ink-muted);
+  line-height: 1.7;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.plate-fallback strong { color: var(--accent); font-size: var(--text-sm); letter-spacing: 0.1em; }
+.plate-fallback code {
+  background: rgba(255,214,0,0.12);
+  color: var(--accent);
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+/* spread body — magazine columns under the two-page header */
+.spread-body {
+  max-width: 1280px;
+  width: 100%;
+  margin: var(--space-8) auto 0;
+  padding: 0 clamp(1.75rem, 3.5vw, 3.25rem);
+}
+@media (min-width: 900px) {
+  .spread-body .flow-cols { columns: 2; column-gap: var(--space-12); }
+  .spread-body .flow-cols > * { break-inside: avoid; }
+}
+
+@media (max-width: 768px) {
+  .spread { grid-template-columns: 1fr; box-shadow: 0 16px 40px rgba(0,0,0,0.5); }
+  .spread::before { display: none; }
+  .page-left { border-right: none; border-bottom: 1px solid var(--color-border); }
+  .page-folio { position: static; margin-top: 1rem; }
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .nav-links { display: none; }
