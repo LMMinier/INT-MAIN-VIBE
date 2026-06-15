@@ -6,14 +6,15 @@
 :root {
   --font-display: 'Archivo', 'Helvetica Neue', sans-serif;
   --font-mono: 'Space Mono', 'Courier New', monospace;
-  --color-bg: #0a0a0a;
-  --color-surface: #101010;
-  --color-surface-2: #161616;
-  --color-ink: #f0ede8;
-  --color-ink-muted: #888;
-  --color-ink-faint: #3a3a3a;
-  --color-border: rgba(240,237,232,0.08);
-  --accent: #FFD600;
+  --color-bg: #ffffff;
+  --color-surface: #f5f7f7;
+  --color-surface-2: #eef1f1;
+  --color-ink: #0c1110;
+  --color-ink-muted: #5a6562;
+  --color-ink-faint: #aab2af;
+  --color-border: rgba(12,17,16,0.12);
+  --accent: #2EB596;
+  --accent-ink: #0c1110;
   --text-xs:   clamp(0.75rem,  0.7rem  + 0.25vw, 0.875rem);
   --text-sm:   clamp(0.875rem, 0.8rem  + 0.35vw, 1rem);
   --text-base: clamp(1rem,     0.95rem + 0.25vw, 1.125rem);
@@ -55,8 +56,8 @@ body {
 img, svg { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
 button { cursor: pointer; background: none; border: none; font: inherit; color: inherit; }
-::selection { background: #FFD600; color: #000; }
-:focus-visible { outline: 2px solid #FFD600; outline-offset: 3px; }
+::selection { background: #2EB596; color: #fff; }
+:focus-visible { outline: 2px solid #2EB596; outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
@@ -72,7 +73,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   height: var(--nav-h);
   z-index: 200;
   border-bottom: 1px solid var(--color-border);
-  background: rgba(10,10,10,0.92);
+  background: rgba(255,255,255,0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   transition: transform 0.3s cubic-bezier(0.16,1,0.3,1);
@@ -106,7 +107,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 .nav-handle {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
-  color: #FFD600;
+  color: #2EB596;
   letter-spacing: 0.08em;
   flex-shrink: 0;
 }
@@ -145,7 +146,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   position: absolute;
   left: 0; bottom: 0;
   width: 100%; height: 4px;
-  background: #FFD600;
+  background: #2EB596;
 }
 
 /* HERO */
@@ -160,7 +161,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   font-family: var(--font-mono);
   font-size: var(--text-xs);
   letter-spacing: 0.2em;
-  color: #FFD600;
+  color: #2EB596;
   text-transform: uppercase;
   margin-bottom: var(--space-6);
   display: flex;
@@ -172,7 +173,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   display: inline-block;
   width: 8px; height: 8px;
   border-radius: 50%;
-  background: #FFD600;
+  background: #2EB596;
   animation: pulse 2s ease-in-out infinite;
 }
 @keyframes pulse {
@@ -264,7 +265,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   line-height: 1.8;
   margin-bottom: var(--space-12);
   padding-left: var(--space-6);
-  border-left: 3px solid rgba(240,237,232,0.12);
+  border-left: 3px solid rgba(46,181,150,0.45);
 }
 
 /* SECTION LABEL */
@@ -272,12 +273,12 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   font-family: var(--font-mono);
   font-size: var(--text-xs);
   letter-spacing: 0.25em;
-  color: #FFD600;
+  color: #2EB596;
   text-transform: uppercase;
   margin-bottom: var(--space-6);
   margin-top: var(--space-4);
   padding-bottom: var(--space-3);
-  border-bottom: 1px solid rgba(255,214,0,0.2);
+  border-bottom: 1px solid rgba(46,181,150,0.2);
   display: block;
 }
 
@@ -296,7 +297,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   top: 8px;
   bottom: 8px;
   width: 2px;
-  background: rgba(255,214,0,0.15);
+  background: rgba(46,181,150,0.15);
 }
 .timeline-item {
   display: grid;
@@ -313,7 +314,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   height: 20px;
   border-radius: 50%;
   background: var(--color-bg);
-  border: 2px solid #FFD600;
+  border: 2px solid #2EB596;
   grid-row: 1;
   grid-column: 1;
   align-self: start;
@@ -423,7 +424,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 .analysis-block {
   background: var(--color-surface-2);
   border: 1px solid var(--color-border);
-  border-left: 4px solid rgba(240,237,232,0.15);
+  border-left: 4px solid var(--color-border);
   padding: var(--space-8);
   margin-bottom: var(--space-12);
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
@@ -499,7 +500,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   left: 0; top: -0.1em;
   font-size: 4em;
   line-height: 1;
-  color: #FFD600;
+  color: #2EB596;
   font-style: normal;
   opacity: 0.3;
 }
@@ -509,7 +510,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   font-family: var(--font-mono);
   font-size: var(--text-sm);
   color: var(--color-ink);
-  border: 1px solid #FFD600;
+  border: 1px solid #2EB596;
   padding: var(--space-4) var(--space-6);
   border-radius: var(--radius-sm);
   display: inline-block;
@@ -519,11 +520,11 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 }
 
 /* UTILITY */
-.accent { color: #FFD600; }
+.accent { color: #2EB596; }
 
 /* FOOTER */
-.site-footer {
-  background: #000;
+.site-footer { /* light */
+  background: var(--color-surface);
   border-top: 1px solid var(--color-border);
   padding: var(--space-16) var(--space-6);
 }
@@ -551,7 +552,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 .footer-handle {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
-  color: #FFD600;
+  color: #2EB596;
   letter-spacing: 0.1em;
 }
 .footer-copy {
@@ -570,7 +571,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   text-transform: uppercase;
   transition: color var(--transition);
 }
-.footer-links a:hover { color: #FFD600; }
+.footer-links a:hover { color: #2EB596; }
 
 /* SCROLL REVEAL */
 .reveal {
@@ -599,7 +600,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   position: absolute;
   inset: 0;
   border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(12,17,16,0.10);
   pointer-events: none;
   z-index: 2;
 }
@@ -616,7 +617,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 
 /* ── NATIVE DATA INFOGRAPHICS ─────────────────────────────────────────────── */
 .ig {
-  --ig-accent: #FFD600;
+  --ig-accent: #2EB596;
   background: linear-gradient(180deg, var(--color-surface-2), var(--color-surface));
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
@@ -691,7 +692,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 }
 .ig-bar-track {
   height: 14px;
-  background: rgba(240,237,232,0.06);
+  background: rgba(12,17,16,0.06);
   border-radius: 100px;
   overflow: hidden;
 }
@@ -719,7 +720,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   width: 150px; height: 150px;
   border-radius: 50%;
   flex-shrink: 0;
-  background: conic-gradient(var(--ig-accent) calc(var(--p) * 1%), rgba(240,237,232,0.07) 0);
+  background: conic-gradient(var(--ig-accent) calc(var(--p) * 1%), rgba(12,17,16,0.07) 0);
   display: grid;
   place-items: center;
   position: relative;
@@ -769,7 +770,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   top: 0; left: 0;
   height: 3px;
   width: 0%;
-  background: linear-gradient(90deg, #FFD600, #FF0055, #00FF94);
+  background: linear-gradient(90deg, #2EB596, #1f8f76);
   z-index: 9999;
   transition: width 0.1s linear;
   border-radius: 0 2px 2px 0;
@@ -790,18 +791,18 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 .story-dot {
   width: 8px; height: 8px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(12,17,16,0.15);
+  border: 1px solid rgba(12,17,16,0.25);
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
 }
 .story-dot.active {
-  background: #FFD600;
-  border-color: #FFD600;
+  background: #2EB596;
+  border-color: #2EB596;
   transform: scale(1.6);
 }
-.story-dot:hover { background: rgba(255,255,255,0.5); }
+.story-dot:hover { background: rgba(12,17,16,0.55); }
 .story-dot[data-label]::before {
   content: attr(data-label);
   position: absolute;
@@ -826,9 +827,9 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-  color: rgba(255,255,255,0.45);
+  background: rgba(12,17,16,0.04);
+  border: 1px solid rgba(12,17,16,0.12);
+  color: rgba(12,17,16,0.55);
   font-family: 'Space Mono', monospace;
   font-size: 11px;
   letter-spacing: 0.08em;
@@ -844,23 +845,23 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   gap: 12px;
   margin-top: 2.5rem;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(255,255,255,0.07);
+  border-top: 1px solid rgba(12,17,16,0.10);
   flex-wrap: wrap;
 }
 .share-label {
   font-family: 'Space Mono', monospace;
   font-size: 11px;
   letter-spacing: 0.1em;
-  color: rgba(255,255,255,0.35);
+  color: rgba(12,17,16,0.45);
   text-transform: uppercase;
 }
 .share-btn {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-  color: rgba(255,255,255,0.6);
+  background: rgba(12,17,16,0.04);
+  border: 1px solid rgba(12,17,16,0.12);
+  color: rgba(12,17,16,0.7);
   font-family: 'Space Mono', monospace;
   font-size: 11px;
   letter-spacing: 0.05em;
@@ -871,15 +872,15 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   text-decoration: none;
 }
 .share-btn:hover {
-  background: rgba(255,255,255,0.1);
-  color: #fff;
-  border-color: rgba(255,255,255,0.25);
+  background: rgba(12,17,16,0.08);
+  color: var(--color-ink);
+  border-color: rgba(12,17,16,0.25);
   transform: translateY(-1px);
 }
 .share-btn.copied {
-  background: rgba(0,255,148,0.12);
-  border-color: rgba(0,255,148,0.35);
-  color: #00FF94;
+  background: rgba(46,181,150,0.14);
+  border-color: rgba(46,181,150,0.5);
+  color: #1f8f76;
 }
 
 /* ── LIVE CLOCK WIDGET ────────────────────────────────────────────────────── */
@@ -888,8 +889,8 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   bottom: 1.5rem; left: 1.5rem;
   background: rgba(0,0,0,0.8);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.08);
-  color: rgba(255,255,255,0.5);
+  border: 1px solid rgba(12,17,16,0.10);
+  color: rgba(12,17,16,0.55);
   font-family: 'Space Mono', monospace;
   font-size: 10px;
   letter-spacing: 0.08em;
@@ -898,7 +899,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   z-index: 999;
   pointer-events: none;
 }
-#live-clock span { color: #FFD600; }
+#live-clock span { color: #2EB596; }
 
 /* ── ISSUE STATS WIDGET ───────────────────────────────────────────────────── */
 #issue-stats {
@@ -906,8 +907,8 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   bottom: 1.5rem; right: 1.5rem;
   background: rgba(0,0,0,0.8);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.08);
-  color: rgba(255,255,255,0.4);
+  border: 1px solid rgba(12,17,16,0.10);
+  color: rgba(12,17,16,0.5);
   font-family: 'Space Mono', monospace;
   font-size: 10px;
   letter-spacing: 0.07em;
@@ -918,7 +919,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   line-height: 1.8;
   pointer-events: none;
 }
-#issue-stats strong { color: rgba(255,255,255,0.75); }
+#issue-stats strong { color: rgba(12,17,16,0.8); }
 
 /* ── MAGAZINE DOUBLE-PAGE SPREAD SYSTEM ───────────────────────────────────── */
 .mag-wrap {
@@ -1013,7 +1014,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 }
 .plate-fallback strong { color: var(--accent); font-size: var(--text-sm); letter-spacing: 0.1em; }
 .plate-fallback code {
-  background: rgba(255,214,0,0.12);
+  background: rgba(46,181,150,0.12);
   color: var(--accent);
   padding: 2px 7px;
   border-radius: 4px;
@@ -1039,6 +1040,17 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   .page-folio { position: static; margin-top: 1rem; }
 }
 
+/* ── LOGO ──────────────────────────────────────────────────────────────────── */
+.nav-logo { height: 30px; width: auto; }
+.footer-brand img { height: 34px; width: auto; }
+.hero-logo {
+  width: min(520px, 82%);
+  height: auto;
+  margin-bottom: var(--space-10);
+  opacity: 0;
+  animation: heroFade 0.9s ease forwards 0.05s;
+}
+
 /* ── SIMPLIFIED LAYOUT (no parallax, full-bleed plates) ────────────────────── */
 /* IMMERSIVE HERO */
 .hero {
@@ -1047,7 +1059,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   display: flex;
   align-items: center;
   overflow: hidden;
-  background: radial-gradient(120% 120% at 50% 10%, #14110a 0%, #0a0a0a 55%, #000 100%);
+  background: radial-gradient(120% 120% at 50% 8%, #ffffff 0%, #f3f7f6 55%, #e9f1ee 100%);
   border-bottom: 1px solid var(--color-border);
 }
 #hero-canvas {
@@ -1064,7 +1076,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   pointer-events: none;
   opacity: 0.5;
   background:
-    radial-gradient(60% 50% at 50% 40%, transparent 0%, rgba(0,0,0,0.55) 100%);
+    radial-gradient(70% 60% at 50% 42%, transparent 0%, rgba(255,255,255,0.65) 100%);
 }
 .hero-overlay {
   position: relative;
@@ -1123,7 +1135,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   font-size: var(--text-xs);
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
   background: var(--accent);
   padding: 0.85rem 1.4rem;
   border-radius: 100px;
@@ -1132,13 +1144,13 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   animation: heroFade 0.8s ease forwards 0.9s;
   transition: transform var(--transition), box-shadow var(--transition);
 }
-.hero-enter:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(255,214,0,0.25); }
+.hero-enter:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(46,181,150,0.25); }
 .hero-scrollcue {
   position: absolute;
   bottom: 1.6rem; left: 50%;
   transform: translateX(-50%);
   width: 22px; height: 36px;
-  border: 2px solid rgba(240,237,232,0.3);
+  border: 2px solid rgba(12,17,16,0.3);
   border-radius: 14px;
   z-index: 2;
 }
@@ -1202,7 +1214,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
   text-align: center;
 }
 .plate-fallback strong { color: var(--accent); letter-spacing: 0.1em; }
-.plate-fallback code { background: rgba(255,214,0,0.12); color: var(--accent); padding: 2px 7px; border-radius: 4px; }
+.plate-fallback code { background: rgba(46,181,150,0.12); color: var(--accent); padding: 2px 7px; border-radius: 4px; }
 
 .ig { margin: var(--space-8) 0; }
 
@@ -1280,7 +1292,7 @@ button { cursor: pointer; background: none; border: none; font: inherit; color: 
 .stamp::before { content: '◉'; font-size: 0.7em; }
 .stamp.verified    { color: #00E0C6; }
 .stamp.corrected   { color: #FF6B5C; }
-.stamp.unconfirmed { color: #FFD600; }
+.stamp.unconfirmed { color: #2EB596; }
 
 .dispatch h3 {
   font-family: var(--font-display);
