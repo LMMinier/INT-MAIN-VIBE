@@ -107,6 +107,7 @@ const storyDefs = [
   { id: 'trust',      label: '05 TRUST' },
   { id: 'suspension', label: '06 72 HRS' },
   { id: 'science',    label: '07 SCIENCE' },
+  { id: 'dispatches', label: '✶ DISPATCH' },
 ];
 const counterEl = document.getElementById('story-counter');
 if (counterEl) {
