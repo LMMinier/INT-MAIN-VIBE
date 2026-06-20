@@ -1,0 +1,134 @@
+[
+  {
+    "n": 1,
+    "file": "audio/slide-01.wav",
+    "dur": 20.376,
+    "words": 59
+  },
+  {
+    "n": 2,
+    "file": "audio/slide-02.wav",
+    "dur": 19.412,
+    "words": 57
+  },
+  {
+    "n": 3,
+    "file": "audio/slide-03.wav",
+    "dur": 22.825,
+    "words": 57
+  },
+  {
+    "n": 4,
+    "file": "audio/slide-04.wav",
+    "dur": 22.152,
+    "words": 60
+  },
+  {
+    "n": 5,
+    "file": "audio/slide-05.wav",
+    "dur": 20.201,
+    "words": 59
+  },
+  {
+    "n": 6,
+    "file": "audio/slide-06.wav",
+    "dur": 23.487,
+    "words": 69
+  },
+  {
+    "n": 7,
+    "file": "audio/slide-07.wav",
+    "dur": 23.684,
+    "words": 63
+  },
+  {
+    "n": 8,
+    "file": "audio/slide-08.wav",
+    "dur": 27.272,
+    "words": 73
+  },
+  {
+    "n": 9,
+    "file": "audio/slide-09.wav",
+    "dur": 31.057,
+    "words": 89
+  },
+  {
+    "n": 10,
+    "file": "audio/slide-10.wav",
+    "dur": 22.593,
+    "words": 61
+  },
+  {
+    "n": 11,
+    "file": "audio/slide-11.wav",
+    "dur": 52.361,
+    "words": 153
+  },
+  {
+    "n": 12,
+    "file": "audio/slide-12.wav",
+    "dur": 29.907,
+    "words": 79
+  },
+  {
+    "n": 13,
+    "file": "audio/slide-13.wav",
+    "dur": 27.957,
+    "words": 79
+  },
+  {
+    "n": 14,
+    "file": "audio/slide-14.wav",
+    "dur": 33.019,
+    "words": 90
+  },
+  {
+    "n": 15,
+    "file": "audio/slide-15.wav",
+    "dur": 35.84,
+    "words": 96
+  },
+  {
+    "n": 16,
+    "file": "audio/slide-16.wav",
+    "dur": 31.521,
+    "words": 92
+  },
+  {
+    "n": 17,
+    "file": "audio/slide-17.wav",
+    "dur": 32.334,
+    "words": 92
+  },
+  {
+    "n": 18,
+    "file": "audio/slide-18.wav",
+    "dur": 33.472,
+    "words": 97
+  },
+  {
+    "n": 19,
+    "file": "audio/slide-19.wav",
+    "dur": 39.834,
+    "words": 105
+  },
+  {
+    "n": 20,
+    "file": "audio/slide-20.wav",
+    "dur": 36.85,
+    "words": 104
+  },
+  {
+    "n": 21,
+    "file": "audio/slide-21.wav",
+    "dur": 36.955,
+    "words": 107
+  },
+  {
+    "n": 22,
+    "file": "audio/slide-22.wav",
+    "dur": 33.402,
+    "words": 84
+  }
+]

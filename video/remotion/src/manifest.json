@@ -1,0 +1,1341 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "slides": [
+    {
+      "n": 1,
+      "img": "slide-01.png",
+      "audio": "slide-01.wav",
+      "durationInFrames": 622,
+      "chapter": "HISPANIOLA",
+      "subtitles": [
+        {
+          "text": "One island.",
+          "from": 0,
+          "durationInFrames": 19
+        },
+        {
+          "text": "Two nations.",
+          "from": 19,
+          "durationInFrames": 21
+        },
+        {
+          "text": "One buried history.",
+          "from": 40,
+          "durationInFrames": 34
+        },
+        {
+          "text": "This is Hispaniola, known to its first peoples as Quisqueya, Ayiti,",
+          "from": 74,
+          "durationInFrames": 119
+        },
+        {
+          "text": "and Boh\u00edo.",
+          "from": 193,
+          "durationInFrames": 18
+        },
+        {
+          "text": "Over the next few minutes we'll trace why Haiti is the way it is: the Ta\u00edno world,",
+          "from": 211,
+          "durationInFrames": 145
+        },
+        {
+          "text": "the West African crossing, Spanish and French rule, colorism,",
+          "from": 356,
+          "durationInFrames": 108
+        },
+        {
+          "text": "two revolutions, the buried ransom of eighteen twenty-five,",
+          "from": 464,
+          "durationInFrames": 104
+        },
+        {
+          "text": "and the road to today.",
+          "from": 568,
+          "durationInFrames": 39
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "img": "slide-02.png",
+      "audio": "slide-02.wav",
+      "durationInFrames": 589,
+      "chapter": "HOW TO READ THIS",
+      "subtitles": [
+        {
+          "text": "First, how to read this.",
+          "from": 0,
+          "durationInFrames": 40
+        },
+        {
+          "text": "History this charged usually gets flattened into either patriotic legend or conspiracy theory,",
+          "from": 40,
+          "durationInFrames": 157
+        },
+        {
+          "text": "so we'll sort everything into three buckets.",
+          "from": 197,
+          "durationInFrames": 74
+        },
+        {
+          "text": "Established fact, documented in the record.",
+          "from": 271,
+          "durationInFrames": 72
+        },
+        {
+          "text": "Contested claims, where real evidence sits on more than one side.",
+          "from": 343,
+          "durationInFrames": 109
+        },
+        {
+          "text": "And myth, folklore dressed up as fact.",
+          "from": 452,
+          "durationInFrames": 64
+        },
+        {
+          "text": "We'll name which is which as we go.",
+          "from": 516,
+          "durationInFrames": 58
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "img": "slide-03.png",
+      "audio": "slide-03.wav",
+      "durationInFrames": 692,
+      "chapter": "BEFORE 1492 \u00b7 THE TA\u00cdNO WORLD",
+      "subtitles": [
+        {
+          "text": "Long before the first European sail,",
+          "from": 0,
+          "durationInFrames": 64
+        },
+        {
+          "text": "Arawak-speaking peoples migrated up the island chain from South America and built complex,",
+          "from": 64,
+          "durationInFrames": 161
+        },
+        {
+          "text": "interconnected societies across the Greater Antilles.",
+          "from": 225,
+          "durationInFrames": 95
+        },
+        {
+          "text": "They organized into five chiefdoms, farmed cassava and maize,",
+          "from": 320,
+          "durationInFrames": 109
+        },
+        {
+          "text": "and gave the world words we still use: hurricane, barbecue, canoe,",
+          "from": 429,
+          "durationInFrames": 118
+        },
+        {
+          "text": "hammock.",
+          "from": 547,
+          "durationInFrames": 14
+        },
+        {
+          "text": "This island was densely populated and organized.",
+          "from": 561,
+          "durationInFrames": 86
+        },
+        {
+          "text": "It was not empty.",
+          "from": 647,
+          "durationInFrames": 30
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "img": "slide-04.png",
+      "audio": "slide-04.wav",
+      "durationInFrames": 684,
+      "chapter": "1492\u20131550 \u00b7 CONQUEST",
+      "subtitles": [
+        {
+          "text": "Columbus made landfall in fourteen ninety-two and claimed the island for Spain.",
+          "from": 0,
+          "durationInFrames": 134
+        },
+        {
+          "text": "Within about fifty years the Ta\u00edno population collapsed,",
+          "from": 134,
+          "durationInFrames": 95
+        },
+        {
+          "text": "destroyed by Old World disease,",
+          "from": 229,
+          "durationInFrames": 53
+        },
+        {
+          "text": "forced labor under the encomienda system, violence, and starvation.",
+          "from": 282,
+          "durationInFrames": 114
+        },
+        {
+          "text": "To replace the dying,",
+          "from": 396,
+          "durationInFrames": 36
+        },
+        {
+          "text": "Spain began shipping enslaved Africans here as early as fifteen oh one.",
+          "from": 432,
+          "durationInFrames": 121
+        },
+        {
+          "text": "The friar Bartolom\u00e9 de las Casas recorded the destruction firsthand.",
+          "from": 553,
+          "durationInFrames": 116
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "img": "slide-05.png",
+      "audio": "slide-05.wav",
+      "durationInFrames": 621,
+      "chapter": "1697 \u00b7 THE CUT",
+      "subtitles": [
+        {
+          "text": "There is nothing natural about a border on this island.",
+          "from": 0,
+          "durationInFrames": 90
+        },
+        {
+          "text": "As Spain's interest drifted to the silver of the mainland,",
+          "from": 90,
+          "durationInFrames": 95
+        },
+        {
+          "text": "French settlers took the under-defended west.",
+          "from": 185,
+          "durationInFrames": 74
+        },
+        {
+          "text": "In sixteen ninety-seven,",
+          "from": 259,
+          "durationInFrames": 39
+        },
+        {
+          "text": "Spain formally ceded that western third to France.",
+          "from": 298,
+          "durationInFrames": 82
+        },
+        {
+          "text": "Two empires, two languages, two legal codes, two economies,",
+          "from": 380,
+          "durationInFrames": 97
+        },
+        {
+          "text": "seeded on a single island.",
+          "from": 477,
+          "durationInFrames": 43
+        },
+        {
+          "text": "Almost everything downstream flows from this one cut.",
+          "from": 520,
+          "durationInFrames": 86
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "img": "slide-06.png",
+      "audio": "slide-06.wav",
+      "durationInFrames": 702,
+      "chapter": "1700s \u00b7 THE PEARL OF THE ANTILLES",
+      "subtitles": [
+        {
+          "text": "By the late seventeen hundreds,",
+          "from": 0,
+          "durationInFrames": 50
+        },
+        {
+          "text": "French Saint-Domingue was one of the most profitable colonies on earth,",
+          "from": 50,
+          "durationInFrames": 114
+        },
+        {
+          "text": "producing a vast share of the world's sugar and coffee and financing the ports of France.",
+          "from": 164,
+          "durationInFrames": 143
+        },
+        {
+          "text": "But that wealth ran on the mass importation and mass death of enslaved Africans.",
+          "from": 307,
+          "durationInFrames": 129
+        },
+        {
+          "text": "Roughly five hundred thousand enslaved people outnumbered whites about sixteen to one,",
+          "from": 436,
+          "durationInFrames": 138
+        },
+        {
+          "text": "and mortality was so brutal the population could not reproduce itself.",
+          "from": 574,
+          "durationInFrames": 113
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "img": "slide-07.png",
+      "audio": "slide-07.wav",
+      "durationInFrames": 712,
+      "chapter": "THE ENGINE OF COLORISM",
+      "subtitles": [
+        {
+          "text": "Saint-Domingue did not inherit colorism.",
+          "from": 0,
+          "durationInFrames": 69
+        },
+        {
+          "text": "It engineered it as a tool of control.",
+          "from": 69,
+          "durationInFrames": 66
+        },
+        {
+          "text": "Colonial administrators built an obsessively ranked caste pyramid: whites at the top,",
+          "from": 135,
+          "durationInFrames": 147
+        },
+        {
+          "text": "free people of color in the middle, the enslaved majority at the base,",
+          "from": 282,
+          "durationInFrames": 121
+        },
+        {
+          "text": "precisely so the groups below could never unite against the planters.",
+          "from": 403,
+          "durationInFrames": 119
+        },
+        {
+          "text": "Remember this template.",
+          "from": 522,
+          "durationInFrames": 40
+        },
+        {
+          "text": "The same hierarchy returns,",
+          "from": 562,
+          "durationInFrames": 47
+        },
+        {
+          "text": "later weaponized as anti-Haitian ideology next door.",
+          "from": 609,
+          "durationInFrames": 88
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "img": "slide-08.png",
+      "audio": "slide-08.wav",
+      "durationInFrames": 818,
+      "chapter": "1791\u20131794 \u00b7 REVOLUTION",
+      "subtitles": [
+        {
+          "text": "In August seventeen ninety-one, a Vodou ceremony at Bois Ca\u00efman,",
+          "from": 0,
+          "durationInFrames": 108
+        },
+        {
+          "text": "led by Boukman Dutty and C\u00e9cile Fatiman, lit the fuse.",
+          "from": 108,
+          "durationInFrames": 91
+        },
+        {
+          "text": "Within days the northern plains were ablaze.",
+          "from": 199,
+          "durationInFrames": 75
+        },
+        {
+          "text": "Out of the revolt rose Toussaint Louverture, born enslaved,",
+          "from": 274,
+          "durationInFrames": 100
+        },
+        {
+          "text": "who forged a disciplined army that outmaneuvered Spain, Britain,",
+          "from": 374,
+          "durationInFrames": 108
+        },
+        {
+          "text": "and France.",
+          "from": 482,
+          "durationInFrames": 19
+        },
+        {
+          "text": "To keep Black soldiers fighting for the Republic,",
+          "from": 501,
+          "durationInFrames": 83
+        },
+        {
+          "text": "France abolished slavery in seventeen ninety-three and ninety-four.",
+          "from": 584,
+          "durationInFrames": 114
+        },
+        {
+          "text": "This is the only fully successful slave revolution in history.",
+          "from": 698,
+          "durationInFrames": 105
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "img": "slide-09.png",
+      "audio": "slide-09.wav",
+      "durationInFrames": 936,
+      "chapter": "1802\u20131804 \u00b7 INDEPENDENCE",
+      "subtitles": [
+        {
+          "text": "In eighteen oh two,",
+          "from": 0,
+          "durationInFrames": 31
+        },
+        {
+          "text": "Napoleon sent a massive expedition to crush the colony and restore slavery.",
+          "from": 31,
+          "durationInFrames": 123
+        },
+        {
+          "text": "Toussaint was seized under a flag of truce and died in a French prison.",
+          "from": 154,
+          "durationInFrames": 116
+        },
+        {
+          "text": "But the betrayal only hardened the resistance under Jean-Jacques Dessalines.",
+          "from": 270,
+          "durationInFrames": 124
+        },
+        {
+          "text": "After the decisive victory at Verti\u00e8res,",
+          "from": 394,
+          "durationInFrames": 65
+        },
+        {
+          "text": "independence was declared on January first, eighteen oh four,",
+          "from": 459,
+          "durationInFrames": 100
+        },
+        {
+          "text": "the first nation founded by formerly enslaved people.",
+          "from": 559,
+          "durationInFrames": 87
+        },
+        {
+          "text": "In early eighteen oh four,",
+          "from": 646,
+          "durationInFrames": 43
+        },
+        {
+          "text": "Dessalines ordered the killing of most remaining French settlers,",
+          "from": 689,
+          "durationInFrames": 106
+        },
+        {
+          "text": "an act of revolutionary terror the Atlantic slave powers would never forgive.",
+          "from": 795,
+          "durationInFrames": 126
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "img": "slide-10.png",
+      "audio": "slide-10.wav",
+      "durationInFrames": 685,
+      "chapter": "1804\u20131862 \u00b7 QUARANTINE",
+      "subtitles": [
+        {
+          "text": "To the slaveholding empires, and a slaveholding United States,",
+          "from": 0,
+          "durationInFrames": 102
+        },
+        {
+          "text": "a republic of self-liberated Africans was not an inspiration.",
+          "from": 102,
+          "durationInFrames": 100
+        },
+        {
+          "text": "It was a contagion to be contained.",
+          "from": 202,
+          "durationInFrames": 58
+        },
+        {
+          "text": "Haiti was diplomatically and economically quarantined for decades,",
+          "from": 260,
+          "durationInFrames": 109
+        },
+        {
+          "text": "shut out of trade and denied recognition.",
+          "from": 369,
+          "durationInFrames": 67
+        },
+        {
+          "text": "The United States,",
+          "from": 436,
+          "durationInFrames": 30
+        },
+        {
+          "text": "fearing it would inspire its own enslaved population,",
+          "from": 466,
+          "durationInFrames": 87
+        },
+        {
+          "text": "withheld recognition until eighteen sixty-two,",
+          "from": 553,
+          "durationInFrames": 76
+        },
+        {
+          "text": "during its own Civil War.",
+          "from": 629,
+          "durationInFrames": 41
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "img": "slide-11.png",
+      "audio": "slide-11.wav",
+      "durationInFrames": 1205,
+      "chapter": "1825 \u00b7 THE RANSOM",
+      "subtitles": [
+        {
+          "text": "This is the single biggest answer.",
+          "from": 0,
+          "durationInFrames": 42
+        },
+        {
+          "text": "In July eighteen twenty-five,",
+          "from": 42,
+          "durationInFrames": 36
+        },
+        {
+          "text": "fourteen French warships arrived off Port-au-Prince.",
+          "from": 78,
+          "durationInFrames": 64
+        },
+        {
+          "text": "France would recognize Haiti's independence on one condition: that Haiti pay one hundred fifty million gold francs to compensate former slaveholders for their lost property,",
+          "from": 142,
+          "durationInFrames": 213
+        },
+        {
+          "text": "including the people themselves.",
+          "from": 355,
+          "durationInFrames": 39
+        },
+        {
+          "text": "It was not a negotiation.",
+          "from": 394,
+          "durationInFrames": 31
+        },
+        {
+          "text": "President Boyer signed.",
+          "from": 425,
+          "durationInFrames": 28
+        },
+        {
+          "text": "To begin paying, Haiti was forced to borrow from French banks,",
+          "from": 453,
+          "durationInFrames": 76
+        },
+        {
+          "text": "in a loan led by the financier Jacques Laffitte.",
+          "from": 529,
+          "durationInFrames": 59
+        },
+        {
+          "text": "The sum was later cut to ninety million francs in eighteen thirty-eight,",
+          "from": 588,
+          "durationInFrames": 89
+        },
+        {
+          "text": "and France received its last indemnity payment in eighteen eighty-eight.",
+          "from": 677,
+          "durationInFrames": 89
+        },
+        {
+          "text": "But the loans taken to cover it, the so-called double debt,",
+          "from": 766,
+          "durationInFrames": 73
+        },
+        {
+          "text": "were not finally cleared until around nineteen forty-seven.",
+          "from": 839,
+          "durationInFrames": 73
+        },
+        {
+          "text": "For over a century,",
+          "from": 912,
+          "durationInFrames": 23
+        },
+        {
+          "text": "national revenue flowed out to Paris instead of into schools, roads,",
+          "from": 935,
+          "durationInFrames": 84
+        },
+        {
+          "text": "and hospitals.",
+          "from": 1019,
+          "durationInFrames": 17
+        },
+        {
+          "text": "For two hundred years it was barely told.",
+          "from": 1036,
+          "durationInFrames": 51
+        },
+        {
+          "text": "In twenty twenty-two,",
+          "from": 1087,
+          "durationInFrames": 26
+        },
+        {
+          "text": "the New York Times documented it and published the data openly.",
+          "from": 1113,
+          "durationInFrames": 77
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "img": "slide-12.png",
+      "audio": "slide-12.wav",
+      "durationInFrames": 908,
+      "chapter": "1821\u20131844 \u00b7 ONE ISLAND, HAITIAN RULE",
+      "subtitles": [
+        {
+          "text": "Meanwhile, in the east, the piece most people miss.",
+          "from": 0,
+          "durationInFrames": 84
+        },
+        {
+          "text": "The Dominican Republic did not win its independence from a European power.",
+          "from": 84,
+          "durationInFrames": 123
+        },
+        {
+          "text": "It won independence from Haiti.",
+          "from": 207,
+          "durationInFrames": 51
+        },
+        {
+          "text": "After a brief ephemeral independence in eighteen twenty-one,",
+          "from": 258,
+          "durationInFrames": 99
+        },
+        {
+          "text": "Haitian president Boyer marched east and unified the entire island from eighteen twenty-two to eighteen forty-four.",
+          "from": 357,
+          "durationInFrames": 191
+        },
+        {
+          "text": "That unification abolished slavery across the formerly Spanish east,",
+          "from": 548,
+          "durationInFrames": 113
+        },
+        {
+          "text": "a real emancipation.",
+          "from": 661,
+          "durationInFrames": 33
+        },
+        {
+          "text": "But Dominican elites experienced it as occupation,",
+          "from": 694,
+          "durationInFrames": 83
+        },
+        {
+          "text": "through heavy taxation and forced service.",
+          "from": 777,
+          "durationInFrames": 70
+        },
+        {
+          "text": "Both tellings contain truth.",
+          "from": 847,
+          "durationInFrames": 46
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "img": "slide-13.png",
+      "audio": "slide-13.wav",
+      "durationInFrames": 862,
+      "chapter": "1838\u20131844 \u00b7 THE DOMINICAN FOUNDING",
+      "subtitles": [
+        {
+          "text": "In the east,",
+          "from": 0,
+          "durationInFrames": 20
+        },
+        {
+          "text": "a young liberal named Juan Pablo Duarte returned from Europe determined to free his homeland.",
+          "from": 20,
+          "durationInFrames": 154
+        },
+        {
+          "text": "In eighteen thirty-eight he founded La Trinitaria,",
+          "from": 174,
+          "durationInFrames": 83
+        },
+        {
+          "text": "a clandestine independence movement organized in cells,",
+          "from": 257,
+          "durationInFrames": 91
+        },
+        {
+          "text": "using theater troupes as cover for the conspiracy.",
+          "from": 348,
+          "durationInFrames": 83
+        },
+        {
+          "text": "On February twenty-seventh, eighteen forty-four,",
+          "from": 431,
+          "durationInFrames": 79
+        },
+        {
+          "text": "patriots seized the Puerta del Conde in Santo Domingo and the Dominican Republic was born.",
+          "from": 510,
+          "durationInFrames": 149
+        },
+        {
+          "text": "Duarte wanted a sovereign republic with rights and elections,",
+          "from": 659,
+          "durationInFrames": 101
+        },
+        {
+          "text": "and he opposed handing it to any empire.",
+          "from": 760,
+          "durationInFrames": 66
+        },
+        {
+          "text": "Remember that.",
+          "from": 826,
+          "durationInFrames": 21
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "img": "slide-14.png",
+      "audio": "slide-14.wav",
+      "durationInFrames": 995,
+      "chapter": "SETTING THE RECORD STRAIGHT",
+      "subtitles": [
+        {
+          "text": "A popular story imagines secret letters between Duarte and Spain.",
+          "from": 0,
+          "durationInFrames": 112
+        },
+        {
+          "text": "The documented record is almost the reverse.",
+          "from": 112,
+          "durationInFrames": 76
+        },
+        {
+          "text": "Duarte's secrecy was about independence.",
+          "from": 188,
+          "durationInFrames": 69
+        },
+        {
+          "text": "The real secret dealing, to hand the country back to a foreign crown,",
+          "from": 257,
+          "durationInFrames": 118
+        },
+        {
+          "text": "was run by his rivals, against him.",
+          "from": 375,
+          "durationInFrames": 60
+        },
+        {
+          "text": "In eighteen forty-four,",
+          "from": 435,
+          "durationInFrames": 39
+        },
+        {
+          "text": "the cattle-baron Pedro Santana seized power and exiled Duarte within months.",
+          "from": 474,
+          "durationInFrames": 130
+        },
+        {
+          "text": "And in eighteen sixty-one,",
+          "from": 604,
+          "durationInFrames": 45
+        },
+        {
+          "text": "Santana secretly re-annexed the Dominican Republic to Spain,",
+          "from": 649,
+          "durationInFrames": 103
+        },
+        {
+          "text": "the only Latin American nation to return itself to colonial rule.",
+          "from": 752,
+          "durationInFrames": 112
+        },
+        {
+          "text": "Dominicans rose up, and Spain was driven out by eighteen sixty-five.",
+          "from": 864,
+          "durationInFrames": 116
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "img": "slide-15.png",
+      "audio": "slide-15.wav",
+      "durationInFrames": 902,
+      "chapter": "20TH CENTURY \u00b7 THE STRONGMEN",
+      "subtitles": [
+        {
+          "text": "The twentieth-century tyrants on each side did not appear from nowhere,",
+          "from": 0,
+          "durationInFrames": 102
+        },
+        {
+          "text": "but they rose by different paths.",
+          "from": 102,
+          "durationInFrames": 47
+        },
+        {
+          "text": "In the Dominican Republic,",
+          "from": 149,
+          "durationInFrames": 37
+        },
+        {
+          "text": "Rafael Trujillo climbed the National Guard that U.S.",
+          "from": 186,
+          "durationInFrames": 75
+        },
+        {
+          "text": "Marines built during the occupation,",
+          "from": 261,
+          "durationInFrames": 52
+        },
+        {
+          "text": "then seized power and made anti-Haitianism and whitening state ideology,",
+          "from": 313,
+          "durationInFrames": 104
+        },
+        {
+          "text": "ruling until his assassination in nineteen sixty-one.",
+          "from": 417,
+          "durationInFrames": 76
+        },
+        {
+          "text": "In Haiti, Fran\u00e7ois Duvalier, Papa Doc,",
+          "from": 493,
+          "durationInFrames": 55
+        },
+        {
+          "text": "was elected in nineteen fifty-seven and then built his own power base,",
+          "from": 548,
+          "durationInFrames": 101
+        },
+        {
+          "text": "sidelining the army with his Tontons Macoutes militia.",
+          "from": 649,
+          "durationInFrames": 78
+        },
+        {
+          "text": "He and his son, Baby Doc, ran a family kleptocracy,",
+          "from": 727,
+          "durationInFrames": 73
+        },
+        {
+          "text": "tolerated by Washington as a Cold War anti-communist bulwark.",
+          "from": 800,
+          "durationInFrames": 87
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "img": "slide-16.png",
+      "audio": "slide-16.wav",
+      "durationInFrames": 831,
+      "chapter": "OCTOBER 1937 \u00b7 EL CORTE",
+      "subtitles": [
+        {
+          "text": "In October nineteen thirty-seven, over roughly a week,",
+          "from": 0,
+          "durationInFrames": 74
+        },
+        {
+          "text": "Trujillo's army systematically murdered Haitians,",
+          "from": 74,
+          "durationInFrames": 68
+        },
+        {
+          "text": "and dark-skinned Dominicans, along the border.",
+          "from": 142,
+          "durationInFrames": 63
+        },
+        {
+          "text": "Soldiers reportedly held up a sprig of parsley and demanded its Spanish word,",
+          "from": 205,
+          "durationInFrames": 106
+        },
+        {
+          "text": "perejil.",
+          "from": 311,
+          "durationInFrames": 11
+        },
+        {
+          "text": "Those whose accent failed the test were killed,",
+          "from": 322,
+          "durationInFrames": 65
+        },
+        {
+          "text": "though historians debate how systematically that parsley test was really used.",
+          "from": 387,
+          "durationInFrames": 108
+        },
+        {
+          "text": "Machetes were used so the state could pass it off as a spontaneous peasant uprising,",
+          "from": 495,
+          "durationInFrames": 116
+        },
+        {
+          "text": "and a press blackout followed.",
+          "from": 611,
+          "durationInFrames": 41
+        },
+        {
+          "text": "Estimates of the dead range from several thousand to tens of thousands,",
+          "from": 652,
+          "durationInFrames": 98
+        },
+        {
+          "text": "the uncertainty itself a legacy of the cover-up.",
+          "from": 750,
+          "durationInFrames": 66
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "img": "slide-17.png",
+      "audio": "slide-17.wav",
+      "durationInFrames": 989,
+      "chapter": "1915\u20131934 \u00b7 OCCUPATION",
+      "subtitles": [
+        {
+          "text": "The United States occupied Haiti from nineteen fifteen to nineteen thirty-four.",
+          "from": 0,
+          "durationInFrames": 133
+        },
+        {
+          "text": "Behind the story was money.",
+          "from": 133,
+          "durationInFrames": 45
+        },
+        {
+          "text": "A New York bank, National City Bank, today Citibank,",
+          "from": 178,
+          "durationInFrames": 87
+        },
+        {
+          "text": "had already maneuvered into control of Haiti's national bank, and U.S.",
+          "from": 265,
+          "durationInFrames": 118
+        },
+        {
+          "text": "forces had shipped Haiti's gold reserve to New York in nineteen fourteen.",
+          "from": 383,
+          "durationInFrames": 123
+        },
+        {
+          "text": "Under U.S.",
+          "from": 506,
+          "durationInFrames": 17
+        },
+        {
+          "text": "supervision,",
+          "from": 523,
+          "durationInFrames": 20
+        },
+        {
+          "text": "a new constitution let foreigners own Haitian land for the first time,",
+          "from": 543,
+          "durationInFrames": 118
+        },
+        {
+          "text": "overturning a core principle of eighteen oh four.",
+          "from": 661,
+          "durationInFrames": 82
+        },
+        {
+          "text": "Revived forced labor sparked the Cacos rebellion.",
+          "from": 743,
+          "durationInFrames": 82
+        },
+        {
+          "text": "The Marine general who led the occupation later called himself a gangster for capitalism.",
+          "from": 825,
+          "durationInFrames": 149
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "img": "slide-18.png",
+      "audio": "slide-18.wav",
+      "durationInFrames": 801,
+      "chapter": "THE DIVERGENCE",
+      "subtitles": [
+        {
+          "text": "Today the gap between the two countries is stark, and a common,",
+          "from": 0,
+          "durationInFrames": 83
+        },
+        {
+          "text": "comfortable explanation blames Haitian culture.",
+          "from": 83,
+          "durationInFrames": 62
+        },
+        {
+          "text": "That is a colorist trope, and it is wrong.",
+          "from": 145,
+          "durationInFrames": 55
+        },
+        {
+          "text": "The real drivers are historical and structural,",
+          "from": 200,
+          "durationInFrames": 62
+        },
+        {
+          "text": "and they were done to Haiti far more than chosen by it: the eighteen twenty-five ransom and debt trap,",
+          "from": 262,
+          "durationInFrames": 135
+        },
+        {
+          "text": "decades of diplomatic isolation, foreign occupation and extraction,",
+          "from": 397,
+          "durationInFrames": 89
+        },
+        {
+          "text": "predatory dictatorship,",
+          "from": 486,
+          "durationInFrames": 30
+        },
+        {
+          "text": "and disaster exposure that is a symptom of poverty, not its cause.",
+          "from": 516,
+          "durationInFrames": 87
+        },
+        {
+          "text": "That does not absolve Haiti's own elites or its worst policy choices,",
+          "from": 603,
+          "durationInFrames": 91
+        },
+        {
+          "text": "which compounded the damage.",
+          "from": 694,
+          "durationInFrames": 37
+        },
+        {
+          "text": "But the foundation was laid from outside.",
+          "from": 731,
+          "durationInFrames": 55
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "img": "slide-19.png",
+      "audio": "slide-19.wav",
+      "durationInFrames": 1184,
+      "chapter": "DOCUMENTED VS. CONTESTED",
+      "subtitles": [
+        {
+          "text": "So what was actually hidden,",
+          "from": 0,
+          "durationInFrames": 47
+        },
+        {
+          "text": "and what does the evidence support? The eighteen twenty-five ransom: now documented,",
+          "from": 47,
+          "durationInFrames": 141
+        },
+        {
+          "text": "reconstructed payment by payment in twenty twenty-two.",
+          "from": 188,
+          "durationInFrames": 91
+        },
+        {
+          "text": "The nineteen thirty-seven massacre cover-up: now documented through survivor testimony and scholarship.",
+          "from": 279,
+          "durationInFrames": 173
+        },
+        {
+          "text": "The cholera epidemic introduced by UN peacekeepers in twenty ten,",
+          "from": 452,
+          "durationInFrames": 109
+        },
+        {
+          "text": "which killed around ten thousand Haitians: acknowledged by the UN in twenty sixteen.",
+          "from": 561,
+          "durationInFrames": 141
+        },
+        {
+          "text": "And the contested one: the twenty oh four removal of President Aristide,",
+          "from": 702,
+          "durationInFrames": 121
+        },
+        {
+          "text": "who had just demanded around twenty-one billion dollars in restitution from France.",
+          "from": 823,
+          "durationInFrames": 139
+        },
+        {
+          "text": "He says the U.S.",
+          "from": 962,
+          "durationInFrames": 27
+        },
+        {
+          "text": "and France forced him out.",
+          "from": 989,
+          "durationInFrames": 44
+        },
+        {
+          "text": "Both deny it.",
+          "from": 1033,
+          "durationInFrames": 22
+        },
+        {
+          "text": "The timing fuels suspicion, but a coordinated plot remains unproven.",
+          "from": 1055,
+          "durationInFrames": 114
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "img": "slide-20.png",
+      "audio": "slide-20.wav",
+      "durationInFrames": 893,
+      "chapter": "2004\u20132026 \u00b7 THE UNRAVELING",
+      "subtitles": [
+        {
+          "text": "The modern unraveling came fast.",
+          "from": 0,
+          "durationInFrames": 42
+        },
+        {
+          "text": "In twenty ten, a magnitude-seven earthquake flattened Port-au-Prince;",
+          "from": 42,
+          "durationInFrames": 89
+        },
+        {
+          "text": "official estimates put the dead above two hundred thousand,",
+          "from": 131,
+          "durationInFrames": 77
+        },
+        {
+          "text": "though the true toll is still disputed.",
+          "from": 208,
+          "durationInFrames": 51
+        },
+        {
+          "text": "That same year, cholera, introduced by UN peacekeepers,",
+          "from": 259,
+          "durationInFrames": 71
+        },
+        {
+          "text": "which killed nearly ten thousand people over the following years.",
+          "from": 330,
+          "durationInFrames": 84
+        },
+        {
+          "text": "In twenty twenty-one,",
+          "from": 414,
+          "durationInFrames": 27
+        },
+        {
+          "text": "President Jovenel Mo\u00efse was assassinated in his home and the state's authority unraveled.",
+          "from": 441,
+          "durationInFrames": 115
+        },
+        {
+          "text": "By twenty twenty-four,",
+          "from": 556,
+          "durationInFrames": 29
+        },
+        {
+          "text": "coordinated gangs had seized the capital and forced out the prime minister.",
+          "from": 585,
+          "durationInFrames": 97
+        },
+        {
+          "text": "And in twenty twenty-six, a foreign security force deploys again,",
+          "from": 682,
+          "durationInFrames": 84
+        },
+        {
+          "text": "with around one and a half million people displaced and no elections in over a decade.",
+          "from": 766,
+          "durationInFrames": 112
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "img": "slide-21.png",
+      "audio": "slide-21.wav",
+      "durationInFrames": 980,
+      "chapter": "THE DEFINITIVE ANSWER",
+      "subtitles": [
+        {
+          "text": "So why is Haiti the way it is? It is not culture, and it is not race.",
+          "from": 0,
+          "durationInFrames": 102
+        },
+        {
+          "text": "It is a structure produced over two hundred years,",
+          "from": 102,
+          "durationInFrames": 74
+        },
+        {
+          "text": "each layer compounding the last.",
+          "from": 176,
+          "durationInFrames": 48
+        },
+        {
+          "text": "Not one master plan,",
+          "from": 224,
+          "durationInFrames": 30
+        },
+        {
+          "text": "but a chain of deliberate acts and hard consequences.",
+          "from": 254,
+          "durationInFrames": 79
+        },
+        {
+          "text": "Revolution,",
+          "from": 333,
+          "durationInFrames": 16
+        },
+        {
+          "text": "in which the enslaved freed themselves and terrified every slave power.",
+          "from": 349,
+          "durationInFrames": 105
+        },
+        {
+          "text": "Quarantine, which cut the first Black republic off from trade.",
+          "from": 454,
+          "durationInFrames": 92
+        },
+        {
+          "text": "The ransom, which locked in an unpayable debt trap.",
+          "from": 546,
+          "durationInFrames": 76
+        },
+        {
+          "text": "Occupation, in which France's banks and then U.S.",
+          "from": 622,
+          "durationInFrames": 73
+        },
+        {
+          "text": "Marines extracted and controlled.",
+          "from": 695,
+          "durationInFrames": 49
+        },
+        {
+          "text": "Dictatorship, in which Cold-War-backed strongmen looted and divided.",
+          "from": 744,
+          "durationInFrames": 101
+        },
+        {
+          "text": "And finally collapse, as disaster, weak institutions,",
+          "from": 845,
+          "durationInFrames": 79
+        },
+        {
+          "text": "and gangs filled the vacuum.",
+          "from": 924,
+          "durationInFrames": 41
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "img": "slide-22.png",
+      "audio": "slide-22.wav",
+      "durationInFrames": 953,
+      "chapter": "WHAT SURVIVED",
+      "subtitles": [
+        {
+          "text": "And yet the people were never erased.",
+          "from": 0,
+          "durationInFrames": 62
+        },
+        {
+          "text": "In twenty eighteen,",
+          "from": 62,
+          "durationInFrames": 32
+        },
+        {
+          "text": "scientists sequenced an ancient Caribbean genome and confirmed genetic continuity with people living today.",
+          "from": 94,
+          "durationInFrames": 180
+        },
+        {
+          "text": "Present-day Puerto Ricans, Dominicans,",
+          "from": 274,
+          "durationInFrames": 64
+        },
+        {
+          "text": "and Cubans still carry Ta\u00edno ancestry.",
+          "from": 338,
+          "durationInFrames": 64
+        },
+        {
+          "text": "The story was assimilation and collapse, not disappearance.",
+          "from": 402,
+          "durationInFrames": 99
+        },
+        {
+          "text": "So hold onto three things.",
+          "from": 501,
+          "durationInFrames": 44
+        },
+        {
+          "text": "One island, split by empires, not by nature.",
+          "from": 545,
+          "durationInFrames": 74
+        },
+        {
+          "text": "Haiti's poverty was produced by history,",
+          "from": 619,
+          "durationInFrames": 67
+        },
+        {
+          "text": "not by culture or race: revolution, to quarantine, to ransom,",
+          "from": 686,
+          "durationInFrames": 103
+        },
+        {
+          "text": "to extraction.",
+          "from": 789,
+          "durationInFrames": 24
+        },
+        {
+          "text": "And always separate fact from contested claim from myth,",
+          "from": 813,
+          "durationInFrames": 94
+        },
+        {
+          "text": "especially online.",
+          "from": 907,
+          "durationInFrames": 31
+        }
+      ]
+    }
+  ],
+  "totalFrames": 18564
+}
